@@ -141,16 +141,14 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/addfragment"
-        android:name="com.example.mad2.add"
-        android:layout_width="409dp"
-        android:layout_height="637dp"
+        android:id="@+id/fragmentContainerView3"
+        android:name="com.example.mad2.home"
+        android:layout_width="281dp"
+        android:layout_height="349dp"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout="@layout/fragment_add" />
+        tools:layout="@layout/fragment_home" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
