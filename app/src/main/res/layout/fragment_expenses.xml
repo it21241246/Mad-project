@@ -10,7 +10,7 @@
         android:id="@+id/button2"
         android:layout_width="140dp"
         android:layout_height="59dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="116dp"
         android:backgroundTint="#0583F2"
         android:text="Add"
         android:textSize="24sp"
@@ -20,6 +20,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.753" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="259dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#0583F2"
+        android:text="View Expenses"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.84" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"

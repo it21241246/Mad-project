@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         add.setOnClickListener {
             add.setImageResource(R.drawable.add)
             supportFragmentManager.beginTransaction().apply {
-                replace(R.id.fragmentContainerView3,fragmentadd)
+                replace(R.id.fragmentContainerView2,fragmentadd)
                 commit()
             }
         }
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             stats.setImageResource(R.drawable.stats)
             settings.setImageResource(R.drawable.settings)
             supportFragmentManager.beginTransaction().apply {
-                replace(R.id.fragmentContainerView3, fragmentHome)
+                replace(R.id.fragmentContainerView2, fragmentHome)
                 commit()
             }
         }
