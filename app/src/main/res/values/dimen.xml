@@ -2,5 +2,5 @@
 <resources>
 
     float sizeInPixels = getResources().getDimension(R.dimen.my_value);
-    <dimen name="my_value">16dp</dimen>
+    <dimen name="textView4">24sp</dimen>
 </resources>
